@@ -1,0 +1,237 @@
+body {
+	font-family: 'OpenSans';
+}
+header .container-fluid {
+	background: url('../images/banner.jpg');
+	background-size: cover;
+	position: relative;
+	text-align: center;
+}
+h1 {
+	color: #fff;
+	margin-top: 80px;
+	margin-bottom: 280px;
+	font-size: 49px;
+	text-transform: uppercase;
+}
+header .logo img {
+	margin-top: 70px;
+}
+header .call-to {
+	background: #fff;
+	bottom: -100px;
+	-webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+	position: absolute;
+	padding-top: 30px;
+	left: 0;
+	margin: auto;
+	right: 0;
+	width: 320px;
+}
+header .call-to .form-control {
+	margin: 0 auto;
+	width: 90%;
+}
+header .call-to .form-control[placeholder] {
+	color: #a4a0a0;
+	font-family: 'OpenSans';
+}
+header .call-to .zip-img {
+	margin-top: 25px;
+}
+header .call-to .zip-img img {
+	float: left;
+	height: 44px;
+	width: 20%;
+}
+header .call-to p {
+	color: #a4a0a0;
+	font-size: 15px;
+	margin-bottom: 25px;
+	margin-top: 125px;
+}
+header .call-to button {
+	border-radius: 2px;
+	padding: 5px 25px;
+	font-family: 'OpenSans-Bold';
+	font-size: 25px;
+	margin-bottom: 25px;
+	text-transform: uppercase;
+}
+main .docs {
+	margin-top: 160px;
+	margin-bottom: 110px;
+}
+main .docs img {
+	float: right;
+}
+main .docs h3 {
+	font-size: 27px;
+	font-family: 'OpenSans-Bold';
+}
+main .docs p {
+	font-size: 14px;
+}
+main .sec {
+	background: url('../images/main-bg.jpg');
+	background-size: 100%;
+	position: relative;
+	text-align: center;
+}
+main .sec .head img {
+	margin-right: 35%;
+	margin-top: 85px;
+}
+main .sec .head-2 img {
+	margin-left: -70%;
+	width: 140%;
+}
+main .sec .head-2 {
+	margin-top: 310px;
+}
+main .sec .head h2,
+main .sec .head-2 h2 {
+	color: #fff;
+	font-family: 'OpenSans-Bold';
+	font-size: 39px;
+}
+main .sec .head h2 {
+	margin-top: -325px;
+}
+main .sec .head-2 h2  {
+	text-align: left;
+}
+main .sec .head p,
+main .sec .head-2 p {
+	color: #fff;
+	font-size: 14px;
+	text-align: left;
+}
+main .sec .head p {
+	padding-left: 15%;
+	padding-right: 15%;
+	margin-top: 55px;
+}
+main .sec .head-2 p {
+	margin-top: 30px;
+}
+main .sec .head-2 button {
+	color: #fff;
+	border: 3px solid #fff;
+	border-radius: 10px;
+	background: transparent;
+	font-size: 27px;
+	font-family: 'OpenSans-Bold';
+	float: left;
+	padding: 10px 30px;
+	margin-top: 20px;
+}
+button:focus {
+	outline: none;
+}
+main .map {
+	background: url('../images/map.jpg');
+	background-size: cover;
+	padding-top: 160px;
+    padding-bottom: 45px;
+}
+main .map form {
+    background: #fff;
+    border-radius: 50%;
+	padding-top: 7%;
+    margin: auto;
+    height: 400px;
+    text-align: center;
+    width: 400px;
+}
+main .map form .form-control {
+	margin: 0 auto;
+	width: 60%;
+}
+main .map form .form-control[placeholder] {
+	font-family: 'OpenSans';
+}
+main .map form button {
+	background: none;
+	border: none;
+}
+.fa-check-circle:before {
+    content: "\f058";
+    color: #43a06d;
+    font-family: 'fontawesome';
+    font-size: 60px;
+}
+footer {
+	background: #43a06d;
+	text-align: center;
+}
+footer p {
+	color: #fff;
+	font-size: 14px;
+	margin-top: 10px;
+}
+@media (min-width: 768px) and (max-width: 789px) {
+	main .sec .head-2 img {
+		width: 165%;
+	}
+}
+@media (max-width: 767px) {
+	h1 {
+		font-size: 20px;
+	}
+	main .docs {
+		text-align: center;
+	}
+	main .docs img {
+		float: none;
+	}
+	main .sec .head img {
+		width: 100%;
+		margin-right: 0;
+		margin-left: -50%;
+	}
+	main .sec .head h2 {
+		margin-top: -60%;
+		font-size: 25px;
+	}
+	main .sec .head-2 h2 {
+		margin-top: -35%;
+		font-size: 25px;
+		text-align: center;
+	}
+	main .sec .head p {
+		padding: 0;
+		margin-top: 25px;
+		font-size: 12px;
+	}
+	main .sec .head-2 p {
+		font-size: 12px;
+	}
+	main .sec .head-2 img {
+		width: 70%;
+		margin-left: -35%;
+	}
+	main .sec .head-2 button {
+		margin: 0 auto;
+		float: none;
+		font-size: 16px;
+	}
+	main .map form  {
+		padding-top: 10%;
+		height: 300px;
+		width: 300px;
+	}
+	.fa-check-circle:before {
+		font-size: 40px;
+	}
+	footer p {
+		font-size: 12px;
+	}
+}
+@media (max-width: 1365px) {
+	main .sec {
+		background-size: inherit;
+	}
+}
